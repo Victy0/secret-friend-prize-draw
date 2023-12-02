@@ -51,14 +51,14 @@ Exemplo de body de requisição
     [
         {
             "name": "Nome pessoa 1",
-            "email": "Nome pessoa 1"
+            "email": "e-mail pessoa 1"
         },
         {
             "name": "Nome pessoa 2",
-            "email": "Nome pessoa 2"
+            "email": "e-mail pessoa 2"
         },
         {
             "name": "Nome pessoa 3",
-            "email": "Nome pessoa 3"
+            "email": "e-mail pessoa 3"
         }
     ]
