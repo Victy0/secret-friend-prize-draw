@@ -11,7 +11,7 @@ RestAPI simples realizada em SPring Boot para realizar o sorteio de amigo oculto
 
 Clonar o repositório:
 
-    git clone https://github.com/Victy0/secret-friend-prize-drawn
+    git clone https://github.com/Victy0/secret-friend-prize-draw
 
 Instalar e executar o Spring Boot
 
