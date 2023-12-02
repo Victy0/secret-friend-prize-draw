@@ -26,6 +26,11 @@ necessário colocar informações de usuário e senha do e-mail no arquivo de co
 
  - para enviar e-mail é necessário alterar as configurações no próprio e-mail para possibilitar o acesso de aplicações de terceiros ou aplicações menos seguras. Dependendo do provedor do e-mail as configurações ficam em locais diferenciados.
 
+Para testes pode utilizar as configurações abaixo, porém essa é limitada a 10 envios de e-mail por dia
+
+    smtp.username=sem.barreiras.vagas@gmail.com
+    smtp.password=dahsvzxgznmfivmc
+
 # Exemplo de envio ao endpoint
 
 Endpoint:
