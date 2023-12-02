@@ -1,6 +1,6 @@
 # API PARA SORTEIO DE AMIGO OCULTO
 
-RestAPI simples realizada em SPring Boot para realizar o sorteio de amigo oculto e enviar e-mail indicando o resultado do sorteio para os participantes indicando o amigo oculto que tirou.
+RestAPI simples realizada em SPring Boot para realizar o sorteio de amigo oculto e enviar e-mail, utilizando o serviço do Google, indicando o resultado do sorteio para os participantes indicando o amigo oculto que tirou.
 
 # Requisitos
 
@@ -16,6 +16,15 @@ Clonar o repositório:
 Instalar e executar o Spring Boot
 
     Dependendo da IDE selecionada tem uma configuração diferente
+
+
+# Configuração de e-mail
+
+necessário colocar informações de usuário e senha do e-mail no arquivo de configurações
+
+    ../src/main/resources/application.properties
+
+ - para enviar e-mail é necessário alterar as configurações no próprio e-mail para possibilitar o acesso de aplicações de terceiros ou aplicações menos seguras. Dependendo do provedor do e-mail as configurações ficam em locais diferenciados.
 
 # Exemplo de envio ao endpoint
 
