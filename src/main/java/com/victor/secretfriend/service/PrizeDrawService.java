@@ -86,7 +86,7 @@ public class PrizeDrawService
 
         for (Player player : playerList)
         {
-            String title = "AMIGO OCULTO - " +  date;
+            String title = "AMIGO OCULTO - Sorteio do dia " +  date;
 
             String body = "Olá, " + player.getName() + "\n\nVocê tirou como amigo oculto: " + player.getSecretFriend().getName() + "\n\nAgradecido pela visualização!";
 
